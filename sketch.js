@@ -15,7 +15,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(800,400);
+  createCanvas(windowWidth, windowHeight);
   engine = Engine.create();
   world = engine.world;
 
@@ -32,7 +32,7 @@ function setup() {
   snow11 = new Snow(350,10,50,50);
   snow12 = new Snow(450,20,50,0);
   ground1 = new Ground(400,400,800,5);
-  ground2 = new Ground(800,0,5,800);
+  ground2 = new Ground(windowWidth, windowHeight,5,800);
   ground1.visible = false;
 
   shiva = createSprite(425, 315, 20, 50);
