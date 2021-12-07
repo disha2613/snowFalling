@@ -31,7 +31,7 @@ function setup() {
   snow10 = new Snow(250,0,50,50);
   snow11 = new Snow(350,10,50,50);
   snow12 = new Snow(450,20,50,0);
-  ground1 = new Ground(400,400,800,5);
+  ground1 = new Ground(windowWidth, windowHeight,800,5);
   ground2 = new Ground(windowWidth, windowHeight,5,800);
   ground1.visible = false;
 
